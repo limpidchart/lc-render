@@ -215,6 +215,7 @@ mod tests {
                 "D".to_string()
             ]
         );
+        assert!((band_scale.scale(&"D".to_string()) - 153.65854).abs() < f32::EPSILON);
         assert_eq!(band_scale.kind(), ScaleKind::Band);
         assert!((band_scale.bandwidth() - 41.707317_f32).abs() < f32::EPSILON);
         assert_eq!(band_scale.is_range_reversed(), false);
@@ -250,6 +251,7 @@ mod tests {
                 "a4".to_string()
             ]
         );
+        assert!((band_scale.scale(&"a2".to_string()) - 33.333332_f32).abs() < f32::EPSILON);
         assert_eq!(band_scale.kind(), ScaleKind::Band);
         assert!((band_scale.bandwidth() - 33.333332_f32).abs() < f32::EPSILON);
         assert_eq!(band_scale.is_range_reversed(), false);
