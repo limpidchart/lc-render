@@ -1,3 +1,4 @@
+pub use crate::scale::linear::LinearScale;
 pub use crate::scale::{Scale, ScaleKind};
 
 pub mod color;

@@ -1,11 +1,13 @@
 use std::cmp::PartialEq;
 
 pub mod band;
+pub mod linear;
 
 /// ScaleKind represents supported scales.
 #[derive(Debug, PartialEq)]
 pub enum ScaleKind {
     Band,
+    Linear,
 }
 
 /// Scale represents an axis scale that is used in views and chart.
@@ -14,7 +16,7 @@ pub trait Scale<T> {
     fn scale(&self, domain: &T) -> f32;
 
     /// Get the list of ticks that represent the scale on an axis.
-    fn ticks(&self) -> &Vec<T>;
+    fn ticks(&self) -> Vec<T>;
 
     /// Get the scale kind.
     fn kind(&self) -> ScaleKind;
