@@ -159,8 +159,8 @@ impl Scale<String> for BandScale {
         };
     }
 
-    fn ticks(&self) -> &Vec<String> {
-        &self.domain
+    fn ticks(&self) -> Vec<String> {
+        self.domain.clone()
     }
 
     fn kind(&self) -> ScaleKind {
