@@ -17,6 +17,7 @@ pub const CX_ATTR: &str = "cx";
 pub const CY_ATTR: &str = "cy";
 pub const R_ATTR: &str = "r";
 
+pub const D_ATTR: &str = "d";
 pub const DY_ATTR: &str = "dy";
 
 pub const WIDTH_ATTR: &str = "width";
@@ -50,22 +51,40 @@ pub const CLASS_TITLE: &str = "title";
 pub const CLASS_POINT: &str = "point";
 pub const CLASS_LINE: &str = "line";
 
-pub const D_ATTR: &str = "d";
-
 pub const VIEW_BOX_ATTR: &str = "viewBox";
 
-pub const START: f32 = 0.0;
+pub const START: f32 = 0_f32;
 
 pub const FILL_NONE: &str = "none";
 
-pub fn translate<T: std::fmt::Display>(x: T, y: T) -> String {
+pub fn translate_x_y<T: std::fmt::Display>(x: T, y: T) -> String {
     format!("translate({},{})", x, y)
 }
 
 pub fn rotate_a_x_y<T: std::fmt::Display>(a: T, x: T, y: T) -> String {
-    format!("rotate({}, {}, {})", a, x, y)
+    format!("rotate({},{},{})", a, x, y)
 }
 
 pub fn rotate_a<T: std::fmt::Display>(a: T) -> String {
     format!("rotate({})", a)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn translate() {
+        let translated = translate_x_y(1_f32, 2_f32);
+        assert_eq!(translated, "translate(1,2)");
+    }
+
+    #[test]
+    fn rotate() {
+        let rotated_1 = rotate_a_x_y(1_f32, 2_f32, 3_f32);
+        assert_eq!(rotated_1, "rotate(1,2,3)");
+
+        let rotated_2 = rotate_a(45_f32);
+        assert_eq!(rotated_2, "rotate(45)");
+    }
 }
