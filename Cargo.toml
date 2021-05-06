@@ -13,3 +13,4 @@ categories = ["graphics"]
 keywords = ["graphics"]
 
 [dependencies]
+itertools = "0.10.0"
