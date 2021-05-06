@@ -1,5 +1,3 @@
-use std::fmt;
-
 pub const COLOR_HEX_BLUE_1: &str = "#0e3569";
 pub const COLOR_HEX_BLUE_2: &str = "#1960b2";
 pub const COLOR_HEX_BLUE_3: &str = "#3a88e2";
@@ -32,8 +30,8 @@ impl Color {
     }
 }
 
-impl fmt::Display for Color {
-    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+impl std::fmt::Display for Color {
+    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         write!(f, "{}", self.value)
     }
 }
@@ -41,5 +39,22 @@ impl fmt::Display for Color {
 impl Default for Color {
     fn default() -> Self {
         Self::new_from_hex(COLOR_HEX_BLUE_2)
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn new_from_hex() {
+        let color = Color::new_from_hex(COLOR_HEX_GREEN_5);
+        assert_eq!(color.value, COLOR_HEX_GREEN_5);
+    }
+
+    #[test]
+    fn new_from_rgb() {
+        let color = Color::new_from_rgb(253, 185, 200);
+        assert_eq!(color.value, "rgb(253,185,200)".to_string());
     }
 }
