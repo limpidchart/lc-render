@@ -14,3 +14,4 @@ keywords = ["graphics"]
 
 [dependencies]
 itertools = "0.10.0"
+svg = "0.9.1"
