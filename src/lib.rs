@@ -1,8 +1,9 @@
 pub use crate::color::Color;
+pub use crate::error::Error;
 pub use crate::scale::band::BandScale;
 pub use crate::scale::linear::LinearScale;
 pub use crate::scale::{Scale, ScaleKind};
-pub use crate::shape::bar::BarLabelPosition;
+pub use crate::shape::bar::{Bar, BarLabelPosition};
 pub use crate::value::bar::BarsValues;
 pub use crate::view::Orientation;
 
