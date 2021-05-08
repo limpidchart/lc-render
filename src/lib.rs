@@ -5,8 +5,10 @@ pub use crate::scale::linear::LinearScale;
 pub use crate::scale::{Scale, ScaleKind};
 pub use crate::shape::bar::{Bar, BarLabelPosition};
 pub use crate::value::bar::BarsValues;
+pub use crate::view::vertical_bar::VerticalBarView;
 pub use crate::view::Orientation;
 
+pub mod chart;
 pub mod color;
 pub mod error;
 pub mod scale;
