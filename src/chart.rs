@@ -1,6 +1,8 @@
 use crate::render::svg::*;
 use crate::shape::axis::{Axis, AxisPosition};
-use crate::{BandScale, Error, HorizontalBarView, LineView, LinearScale, VerticalBarView};
+use crate::{
+    AreaView, BandScale, Error, HorizontalBarView, LineView, LinearScale, VerticalBarView,
+};
 use std::path::Path;
 use svg::Node;
 
@@ -27,6 +29,7 @@ pub struct Chart {
     x_axis_bottom: Option<Axis>,
     y_axis_left: Option<Axis>,
     y_axis_right: Option<Axis>,
+    area_views: Vec<AreaView>,
     horizontal_bar_views: Vec<HorizontalBarView>,
     line_views: Vec<LineView>,
     vertical_bar_views: Vec<VerticalBarView>,
@@ -47,6 +50,7 @@ impl Chart {
             x_axis_bottom: None,
             y_axis_left: None,
             y_axis_right: None,
+            area_views: Vec::new(),
             horizontal_bar_views: Vec::new(),
             line_views: Vec::new(),
             vertical_bar_views: Vec::new(),
@@ -226,6 +230,12 @@ impl Chart {
         self
     }
 
+    /// Add a single AreaView to chart.
+    pub fn add_area_view(mut self, view: AreaView) -> Self {
+        self.area_views.push(view);
+        self
+    }
+
     /// Add a single HorizontalBarView to chart.
     pub fn add_horizontal_bar_view(mut self, view: HorizontalBarView) -> Self {
         self.horizontal_bar_views.push(view);
@@ -289,6 +299,9 @@ impl Chart {
                 TRANSFORM_ATTR,
                 translate_x_y(self.margin_left, self.margin_top),
             );
+        for view in self.area_views.iter() {
+            views_group.append(view.to_svg());
+        }
         for view in self.horizontal_bar_views.iter() {
             views_group.append(view.to_svg());
         }

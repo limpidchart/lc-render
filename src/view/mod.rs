@@ -1,3 +1,4 @@
+pub mod area;
 pub mod horizontal_bar;
 pub mod line;
 pub mod vertical_bar;
