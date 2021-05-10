@@ -10,7 +10,7 @@ pub struct BarsValues {
 
 impl BarsValues {
     /// Create a new BarsValues.
-    pub(crate) fn new(values: Vec<f32>) -> Self {
+    pub fn new(values: Vec<f32>) -> Self {
         Self {
             values,
             fill_color: COLOR_HEX_BLUE_2.to_string(),

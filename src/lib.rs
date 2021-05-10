@@ -1,3 +1,4 @@
+pub use crate::chart::Chart;
 pub use crate::color::Color;
 pub use crate::error::Error;
 pub use crate::scale::band::BandScale;
