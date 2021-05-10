@@ -41,6 +41,7 @@ pub const SHAPE_RENDERING_ATTR: &str = "shape-rendering";
 pub const SHAPE_RENDERING_CRISP_EDGES: &str = "crispEdges";
 
 pub const CLASS_ATTR: &str = "class";
+pub const CLASS_AREA: &str = "area";
 pub const CLASS_BAR: &str = "bar";
 pub const CLASS_CHART: &str = "chart";
 pub const CLASS_VIEWS: &str = "views";
