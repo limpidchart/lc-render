@@ -69,6 +69,10 @@ pub fn rotate_a<T: std::fmt::Display>(a: T) -> String {
     format!("rotate({})", a)
 }
 
+pub fn pair_x_y<T: std::fmt::Display>(x: T, y: T) -> String {
+    format!("({},{})", x, y)
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -86,5 +90,11 @@ mod tests {
 
         let rotated_2 = rotate_a(45_f32);
         assert_eq!(rotated_2, "rotate(45)");
+    }
+
+    #[test]
+    fn pair() {
+        let paired = pair_x_y(12.1_f32, 21.1_f32);
+        assert_eq!(paired, "(12.1,21.1)");
     }
 }
