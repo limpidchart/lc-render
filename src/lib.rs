@@ -4,6 +4,7 @@ pub use crate::error::Error;
 pub use crate::scale::band::BandScale;
 pub use crate::scale::linear::LinearScale;
 pub use crate::scale::{Scale, ScaleKind};
+pub use crate::shape::area::Area;
 pub use crate::shape::bar::{Bar, BarLabelPosition};
 pub use crate::shape::point::PointLabelPosition;
 pub use crate::value::bar::BarsValues;
