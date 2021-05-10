@@ -1,0 +1,206 @@
+<svg height="700" viewBox="0 0 1200 700" width="1200" xmlns="http://www.w3.org/2000/svg">
+<g class="chart">
+<g class="x-axis" transform="translate(40,630)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="1130" y1="0" y2="0"/>
+<g class="tick" transform="translate(0,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+a1
+</text>
+</g>
+<g class="tick" transform="translate(226,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+a2
+</text>
+</g>
+<g class="tick" transform="translate(452,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+a3
+</text>
+</g>
+<g class="tick" transform="translate(678,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+a4
+</text>
+</g>
+<g class="tick" transform="translate(904,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+a5
+</text>
+</g>
+<g class="tick" transform="translate(1130,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="0" y1="0" y2="6"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="middle" transform="rotate(0,0,16)" x="0" y="16">
+a6
+</text>
+</g>
+<text fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" transform="rotate(0)" x="565" y="42">
+X Values
+</text>
+</g>
+<g class="y-axis" transform="translate(40,20)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="0" y1="0" y2="610"/>
+<g class="tick" transform="translate(0,610)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+0
+</text>
+</g>
+<g class="tick" transform="translate(0,549)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+20
+</text>
+</g>
+<g class="tick" transform="translate(0,488)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+40
+</text>
+</g>
+<g class="tick" transform="translate(0,427)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+60
+</text>
+</g>
+<g class="tick" transform="translate(0,366)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+80
+</text>
+</g>
+<g class="tick" transform="translate(0,305)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+100
+</text>
+</g>
+<g class="tick" transform="translate(0,244)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+120
+</text>
+</g>
+<g class="tick" transform="translate(0,183)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+140
+</text>
+</g>
+<g class="tick" transform="translate(0,122)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+160
+</text>
+</g>
+<g class="tick" transform="translate(0,61)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+180
+</text>
+</g>
+<g class="tick" transform="translate(0,0)">
+<line shape-rendering="crispEdges" stroke="#bbbbbb" stroke-width="1" x1="0" x2="-6" y1="0" y2="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="12px" text-anchor="end" transform="rotate(0,-12,0)" x="-12" y="0">
+200
+</text>
+</g>
+<text fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" transform="rotate(-90)" x="-305" y="-42">
+Y Values
+</text>
+</g>
+<g class="views" transform="translate(40,20)">
+<g>
+<g class="area">
+<g class="point" transform="translate(0,573.4)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+12
+</text>
+</g>
+<g class="point" transform="translate(226,305)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+100
+</text>
+</g>
+<g class="point" transform="translate(452,244)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+120
+</text>
+</g>
+<g class="point" transform="translate(678,61)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+180
+</text>
+</g>
+<g class="point" transform="translate(904,488)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+40
+</text>
+</g>
+<g class="point" transform="translate(1130,585.6)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+8
+</text>
+</g>
+<g class="point" transform="translate(1130,610)"/>
+<g class="point" transform="translate(0,610)"/>
+<path d="M0,573.4 L226,305 L452,244 L678,61 L904,488 L1130,585.6 L1130,610 L0,610 z" fill="#ffa700" stroke="#ff8d00"/>
+<g class="point" transform="translate(0,573.4)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+12
+</text>
+</g>
+<g class="point" transform="translate(226,305)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+100
+</text>
+</g>
+<g class="point" transform="translate(452,244)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+120
+</text>
+</g>
+<g class="point" transform="translate(678,61)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+180
+</text>
+</g>
+<g class="point" transform="translate(904,488)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+40
+</text>
+</g>
+<g class="point" transform="translate(1130,585.6)">
+<rect fill="#ff7400" height="10" stroke="#ff7400" width="10" x="-5" y="-5"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="start" x="9" y="-13">
+8
+</text>
+</g>
+<g class="point" transform="translate(1130,610)"/>
+<g class="point" transform="translate(0,610)"/>
+</g>
+</g>
+</g>
+<g class="title" transform="translate(600,25)">
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="24px" text-anchor="middle" x="0" y="0">
+Single Area Chart
+</text>
+</g>
+</g>
+</svg>
