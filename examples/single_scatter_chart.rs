@@ -1,7 +1,4 @@
-use lc_render::Chart;
-use lc_render::LinearScale;
-use lc_render::PointLabelPosition;
-use lc_render::ScatterView;
+use lc_render::{Chart, LinearScale, PointLabelPosition, ScatterView};
 
 fn main() {
     let width = 800;

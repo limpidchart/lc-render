@@ -1,8 +1,5 @@
 use lc_render::color::{COLOR_HEX_BLUE_1, COLOR_HEX_BLUE_4};
-use lc_render::LinearScale;
-use lc_render::PointLabelPosition;
-use lc_render::{BandScale, LineView};
-use lc_render::{Chart, Color};
+use lc_render::{BandScale, Chart, Color, LineView, LinearScale, PointLabelPosition};
 
 fn main() {
     let width = 1000;

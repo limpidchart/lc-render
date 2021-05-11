@@ -1,6 +1,4 @@
-use lc_render::{
-    AreaView, BandScale, Chart, Color, LineView, LinearScale, PointLabelPosition, PointType,
-};
+use lc_render::{AreaView, BandScale, Chart, Color, LinearScale, PointLabelPosition, PointType};
 
 fn main() {
     let width = 1200;
