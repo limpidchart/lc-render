@@ -156,7 +156,7 @@ mod tests {
         assert!((linear_scale.scale(&24_f32) - 475.2_f32).abs() < f32::EPSILON);
         assert_eq!(linear_scale.kind(), ScaleKind::Linear);
         assert!((linear_scale.bandwidth() - 0_f32).abs() < f32::EPSILON);
-        assert_eq!(linear_scale.is_range_reversed(), true);
+        assert!(linear_scale.is_range_reversed());
         assert!((linear_scale.tick_offset() - 0_f32).abs() < f32::EPSILON);
     }
 }

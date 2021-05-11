@@ -162,7 +162,6 @@ mod tests {
             .set_data(&data)
             .expect("unable to set data");
         let scatter_svg = scatter.to_svg();
-        println!("{}", scatter_svg);
         assert_eq!(scatter_svg.to_string(), expected_svg_group);
     }
 }
