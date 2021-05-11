@@ -1,7 +1,7 @@
 use crate::render::svg::*;
-use crate::scale::Scale;
 use crate::shape::axis_line::AxisLine;
 use crate::shape::axis_tick::AxisTick;
+use crate::Scale;
 use std::string::ToString;
 use svg::Node;
 

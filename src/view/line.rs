@@ -1,10 +1,7 @@
-use crate::color::{Color, COLOR_HEX_BLUE_1, COLOR_HEX_BLUE_2};
-use crate::error::Error;
+use crate::color::{COLOR_HEX_BLUE_1, COLOR_HEX_BLUE_2};
 use crate::render::svg::*;
-use crate::scale::linear::LinearScale;
-use crate::scale::Scale;
-use crate::shape::point::{Point, PointLabelPosition, PointType};
-use crate::BandScale;
+use crate::shape::point::Point;
+use crate::{BandScale, Color, Error, LinearScale, PointLabelPosition, PointType, Scale};
 use svg::Node;
 
 const DEFAULT_LABEL_VISIBLE: bool = true;

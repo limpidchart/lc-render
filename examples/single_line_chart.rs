@@ -1,7 +1,4 @@
-use lc_render::LineView;
-use lc_render::LinearScale;
-use lc_render::PointLabelPosition;
-use lc_render::{BandScale, Chart};
+use lc_render::{BandScale, Chart, LineView, LinearScale, PointLabelPosition};
 
 fn main() {
     let width = 1200;

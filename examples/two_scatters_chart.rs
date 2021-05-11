@@ -1,6 +1,4 @@
-use lc_render::Chart;
-use lc_render::ScatterView;
-use lc_render::{Color, LinearScale, PointType};
+use lc_render::{Chart, Color, LinearScale, PointType, ScatterView};
 
 fn main() {
     let width = 800;

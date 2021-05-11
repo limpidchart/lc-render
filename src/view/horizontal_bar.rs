@@ -1,10 +1,5 @@
-use crate::BandScale;
-use crate::BarsValues;
-use crate::Error;
-use crate::LinearScale;
-use crate::Orientation;
-use crate::Scale;
-use crate::{Bar, BarLabelPosition};
+use crate::shape::bar::Bar;
+use crate::{BandScale, BarLabelPosition, BarsValues, Error, LinearScale, Orientation, Scale};
 use std::collections::HashMap;
 use svg::node::Node;
 

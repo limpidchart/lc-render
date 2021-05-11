@@ -1,7 +1,4 @@
-use lc_render::Chart;
-use lc_render::LinearScale;
-use lc_render::VerticalBarView;
-use lc_render::{BandScale, BarsValues, Color};
+use lc_render::{BandScale, BarsValues, Chart, Color, LinearScale, VerticalBarView};
 
 fn main() {
     // Configure document size.
