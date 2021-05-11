@@ -152,6 +152,7 @@ impl LineView {
             res.append(point.to_svg());
         }
         let line = svg::node::element::Path::new()
+            .set(CLASS_ATTR, CLASS_LINE)
             .set(FILL_ATTR, FILL_NONE)
             .set(STROKE_ATTR, self.stroke_color.clone())
             .set(STROKE_WIDTH_ATTR, DEFAULT_LINE_STROKE_WIDTH)
@@ -169,7 +170,7 @@ mod tests {
     use crate::Color;
 
     #[test]
-    fn vertical_bar_basic() {
+    fn line_basic() {
         let expected_svg_group = r##"<g>
 <g class="point" transform="translate(13.414631,99.01)">
 <g>
@@ -207,7 +208,7 @@ mod tests {
 21
 </text>
 </g>
-<path d="M13.414631,99.01 L37.804874,99.865555 L62.195118,99.5 L86.585365,99.76667" fill="none" stroke="#ff006c" stroke-width="2"/>
+<path class="line" d="M13.414631,99.01 L37.804874,99.865555 L62.195118,99.5 L86.585365,99.76667" fill="none" stroke="#ff006c" stroke-width="2"/>
 </g>"##;
 
         let x_scale = BandScale::new(

@@ -155,8 +155,8 @@ impl AreaView {
             self.point_type,
             DEFAULT_POINT_SIZE,
             &data[0].to_string(),
-            &self.point_fill_color.to_string(),
-            &self.point_stroke_color.to_string(),
+            &self.point_fill_color,
+            &self.point_stroke_color,
         )
         .set_point_visible(false)
         .set_label_visible(false);
@@ -168,8 +168,8 @@ impl AreaView {
             self.point_type,
             DEFAULT_POINT_SIZE,
             &data[0].to_string(),
-            &self.point_fill_color.to_string(),
-            &self.point_stroke_color.to_string(),
+            &self.point_fill_color,
+            &self.point_stroke_color,
         )
         .set_point_visible(false)
         .set_label_visible(false);
@@ -195,7 +195,7 @@ mod tests {
     use crate::Color;
 
     #[test]
-    fn vertical_bar_basic() {
+    fn area_basic() {
         let expected_svg_group = r##"<g>
 <g class="area">
 <g class="point" transform="translate(13.414631,99.01)">
