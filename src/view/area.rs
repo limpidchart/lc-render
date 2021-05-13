@@ -2,7 +2,7 @@ use crate::color::{COLOR_HEX_GREEN_1, COLOR_HEX_GREEN_4, COLOR_HEX_GREEN_5};
 use crate::render::svg::*;
 use crate::shape::area::Area;
 use crate::shape::point::Point;
-use crate::{BandScale, Color, Error, LinearScale, PointLabelPosition, PointType, Scale};
+use crate::{BandScale, Color, Error, LinearScale, PointLabelPosition, PointType, Scale, View};
 use svg::Node;
 
 const DEFAULT_LABEL_VISIBLE: bool = true;
@@ -179,9 +179,11 @@ impl AreaView {
 
         Ok(self)
     }
+}
 
+impl View for AreaView {
     /// Get area SVG representation.
-    pub fn to_svg(&self) -> svg::node::element::Group {
+    fn to_svg(&self) -> svg::node::element::Group {
         let mut res = svg::node::element::Group::new();
         res.append(self.area.to_svg());
 

@@ -13,6 +13,7 @@ pub use crate::view::line::LineView;
 pub use crate::view::scatter::ScatterView;
 pub use crate::view::vertical_bar::VerticalBarView;
 pub use crate::view::Orientation;
+pub use crate::view::View;
 
 pub mod chart;
 pub mod color;

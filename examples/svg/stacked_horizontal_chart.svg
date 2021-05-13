@@ -104,78 +104,6 @@ Australia
 </g>
 <g class="views" transform="translate(100,90)">
 <g>
-<g class="bar" transform="translate(0,335.40985)">
-<rect fill="#01629c" height="97.37705" shape-rendering="crispEdges" stroke="#00296f" stroke-width="1" width="133.93066" x="0" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="66.96533" y="48.688526">
-70.08
-</text>
-</g>
-<g class="bar" transform="translate(0,335.40985)">
-<rect fill="#00fff9" height="97.37705" shape-rendering="crispEdges" stroke="#00a2c5" stroke-width="1" width="62.072876" x="133.93066" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="164.9671" y="48.688526">
-32.48
-</text>
-</g>
-<g class="bar" transform="translate(0,335.40985)">
-<rect fill="#3f962c" height="97.37705" shape-rendering="crispEdges" stroke="#13761f" stroke-width="1" width="99.60712" x="196.00354" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="245.8071" y="48.688526">
-52.12
-</text>
-</g>
-<g class="bar" transform="translate(0,335.40985)">
-<rect fill="#5eab2e" height="97.37705" shape-rendering="crispEdges" stroke="#168523" stroke-width="1" width="130.9111" x="295.61066" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="361.06622" y="48.688526">
-68.5
-</text>
-</g>
-<g class="bar" transform="translate(0,335.40985)">
-<rect fill="#ffa700" height="97.37705" shape-rendering="crispEdges" stroke="#ff7400" stroke-width="1" width="122.23465" x="426.52176" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="487.6391" y="48.688526">
-63.96
-</text>
-</g>
-<g class="bar" transform="translate(0,335.40985)">
-<rect fill="#ffce00" height="97.37705" shape-rendering="crispEdges" stroke="#ff8d00" stroke-width="1" width="158.16357" x="548.7564" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="627.8382" y="48.688526">
-82.76
-</text>
-</g>
-<g class="bar" transform="translate(0,551.80334)">
-<rect fill="#01629c" height="97.37705" shape-rendering="crispEdges" stroke="#00296f" stroke-width="1" width="160.80089" x="0" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="80.400444" y="48.688526">
-84.14
-</text>
-</g>
-<g class="bar" transform="translate(0,551.80334)">
-<rect fill="#00fff9" height="97.37705" shape-rendering="crispEdges" stroke="#00a2c5" stroke-width="1" width="73.348465" x="160.80089" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="197.47513" y="48.688526">
-38.38
-</text>
-</g>
-<g class="bar" transform="translate(0,551.80334)">
-<rect fill="#3f962c" height="97.37705" shape-rendering="crispEdges" stroke="#13761f" stroke-width="1" width="119.02399" x="234.14935" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="293.66135" y="48.688526">
-62.28
-</text>
-</g>
-<g class="bar" transform="translate(0,551.80334)">
-<rect fill="#5eab2e" height="97.37705" shape-rendering="crispEdges" stroke="#168523" stroke-width="1" width="155.06757" x="353.17334" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="430.70712" y="48.688526">
-81.14
-</text>
-</g>
-<g class="bar" transform="translate(0,551.80334)">
-<rect fill="#ffa700" height="97.37705" shape-rendering="crispEdges" stroke="#ff7400" stroke-width="1" width="145.77954" x="508.2409" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="581.1307" y="48.688526">
-76.28
-</text>
-</g>
-<g class="bar" transform="translate(0,551.80334)">
-<rect fill="#ffce00" height="97.37705" shape-rendering="crispEdges" stroke="#ff8d00" stroke-width="1" width="189.75421" x="654.02045" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="748.8976" y="48.688526">
-99.29
-</text>
-</g>
 <g class="bar" transform="translate(0,443.60657)">
 <rect fill="#01629c" height="97.37705" shape-rendering="crispEdges" stroke="#00296f" stroke-width="1" width="137.44711" x="0" y="0"/>
 <text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="68.72356" y="48.688526">
@@ -212,40 +140,40 @@ Australia
 102.58
 </text>
 </g>
-<g class="bar" transform="translate(0,10.819672)">
-<rect fill="#01629c" height="97.37705" shape-rendering="crispEdges" stroke="#00296f" stroke-width="1" width="63.39155" x="0" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="31.695774" y="48.688526">
-33.17
+<g class="bar" transform="translate(0,335.40985)">
+<rect fill="#01629c" height="97.37705" shape-rendering="crispEdges" stroke="#00296f" stroke-width="1" width="133.93066" x="0" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="66.96533" y="48.688526">
+70.08
 </text>
 </g>
-<g class="bar" transform="translate(0,10.819672)">
-<rect fill="#00fff9" height="97.37705" shape-rendering="crispEdges" stroke="#00a2c5" stroke-width="1" width="18.671555" x="63.39155" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="72.727325" y="48.688526">
-9.77
+<g class="bar" transform="translate(0,335.40985)">
+<rect fill="#00fff9" height="97.37705" shape-rendering="crispEdges" stroke="#00a2c5" stroke-width="1" width="62.072876" x="133.93066" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="164.9671" y="48.688526">
+32.48
 </text>
 </g>
-<g class="bar" transform="translate(0,10.819672)">
-<rect fill="#3f962c" height="97.37705" shape-rendering="crispEdges" stroke="#13761f" stroke-width="1" width="42.025337" x="82.0631" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="103.075775" y="48.688526">
-21.99
+<g class="bar" transform="translate(0,335.40985)">
+<rect fill="#3f962c" height="97.37705" shape-rendering="crispEdges" stroke="#13761f" stroke-width="1" width="99.60712" x="196.00354" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="245.8071" y="48.688526">
+52.12
 </text>
 </g>
-<g class="bar" transform="translate(0,10.819672)">
-<rect fill="#5eab2e" height="97.37705" shape-rendering="crispEdges" stroke="#168523" stroke-width="1" width="53.147995" x="124.08844" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="150.66245" y="48.688526">
-27.81
+<g class="bar" transform="translate(0,335.40985)">
+<rect fill="#5eab2e" height="97.37705" shape-rendering="crispEdges" stroke="#168523" stroke-width="1" width="130.9111" x="295.61066" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="361.06622" y="48.688526">
+68.5
 </text>
 </g>
-<g class="bar" transform="translate(0,10.819672)">
-<rect fill="#ffa700" height="97.37705" shape-rendering="crispEdges" stroke="#ff7400" stroke-width="1" width="58.57556" x="177.23643" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="206.52422" y="48.688526">
-30.65
+<g class="bar" transform="translate(0,335.40985)">
+<rect fill="#ffa700" height="97.37705" shape-rendering="crispEdges" stroke="#ff7400" stroke-width="1" width="122.23465" x="426.52176" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="487.6391" y="48.688526">
+63.96
 </text>
 </g>
-<g class="bar" transform="translate(0,10.819672)">
-<rect fill="#ffce00" height="97.37705" shape-rendering="crispEdges" stroke="#ff8d00" stroke-width="1" width="66.14357" x="235.812" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="268.8838" y="48.688526">
-34.61
+<g class="bar" transform="translate(0,335.40985)">
+<rect fill="#ffce00" height="97.37705" shape-rendering="crispEdges" stroke="#ff8d00" stroke-width="1" width="158.16357" x="548.7564" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="627.8382" y="48.688526">
+82.76
 </text>
 </g>
 <g class="bar" transform="translate(0,227.21312)">
@@ -284,6 +212,42 @@ Australia
 83.89
 </text>
 </g>
+<g class="bar" transform="translate(0,10.819672)">
+<rect fill="#01629c" height="97.37705" shape-rendering="crispEdges" stroke="#00296f" stroke-width="1" width="63.39155" x="0" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="31.695774" y="48.688526">
+33.17
+</text>
+</g>
+<g class="bar" transform="translate(0,10.819672)">
+<rect fill="#00fff9" height="97.37705" shape-rendering="crispEdges" stroke="#00a2c5" stroke-width="1" width="18.671555" x="63.39155" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="72.727325" y="48.688526">
+9.77
+</text>
+</g>
+<g class="bar" transform="translate(0,10.819672)">
+<rect fill="#3f962c" height="97.37705" shape-rendering="crispEdges" stroke="#13761f" stroke-width="1" width="42.025337" x="82.0631" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="103.075775" y="48.688526">
+21.99
+</text>
+</g>
+<g class="bar" transform="translate(0,10.819672)">
+<rect fill="#5eab2e" height="97.37705" shape-rendering="crispEdges" stroke="#168523" stroke-width="1" width="53.147995" x="124.08844" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="150.66245" y="48.688526">
+27.81
+</text>
+</g>
+<g class="bar" transform="translate(0,10.819672)">
+<rect fill="#ffa700" height="97.37705" shape-rendering="crispEdges" stroke="#ff7400" stroke-width="1" width="58.57556" x="177.23643" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="206.52422" y="48.688526">
+30.65
+</text>
+</g>
+<g class="bar" transform="translate(0,10.819672)">
+<rect fill="#ffce00" height="97.37705" shape-rendering="crispEdges" stroke="#ff8d00" stroke-width="1" width="66.14357" x="235.812" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="268.8838" y="48.688526">
+34.61
+</text>
+</g>
 <g class="bar" transform="translate(0,119.016396)">
 <rect fill="#01629c" height="97.37705" shape-rendering="crispEdges" stroke="#00296f" stroke-width="1" width="134.96268" x="0" y="0"/>
 <text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="67.48134" y="48.688526">
@@ -318,6 +282,42 @@ Australia
 <rect fill="#ffce00" height="97.37705" shape-rendering="crispEdges" stroke="#ff8d00" stroke-width="1" width="179.10938" x="517.89197" y="0"/>
 <text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="607.44666" y="48.688526">
 93.72
+</text>
+</g>
+<g class="bar" transform="translate(0,551.80334)">
+<rect fill="#01629c" height="97.37705" shape-rendering="crispEdges" stroke="#00296f" stroke-width="1" width="160.80089" x="0" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="80.400444" y="48.688526">
+84.14
+</text>
+</g>
+<g class="bar" transform="translate(0,551.80334)">
+<rect fill="#00fff9" height="97.37705" shape-rendering="crispEdges" stroke="#00a2c5" stroke-width="1" width="73.348465" x="160.80089" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="197.47513" y="48.688526">
+38.38
+</text>
+</g>
+<g class="bar" transform="translate(0,551.80334)">
+<rect fill="#3f962c" height="97.37705" shape-rendering="crispEdges" stroke="#13761f" stroke-width="1" width="119.02399" x="234.14935" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="293.66135" y="48.688526">
+62.28
+</text>
+</g>
+<g class="bar" transform="translate(0,551.80334)">
+<rect fill="#5eab2e" height="97.37705" shape-rendering="crispEdges" stroke="#168523" stroke-width="1" width="155.06757" x="353.17334" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="430.70712" y="48.688526">
+81.14
+</text>
+</g>
+<g class="bar" transform="translate(0,551.80334)">
+<rect fill="#ffa700" height="97.37705" shape-rendering="crispEdges" stroke="#ff7400" stroke-width="1" width="145.77954" x="508.2409" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="581.1307" y="48.688526">
+76.28
+</text>
+</g>
+<g class="bar" transform="translate(0,551.80334)">
+<rect fill="#ffce00" height="97.37705" shape-rendering="crispEdges" stroke="#ff8d00" stroke-width="1" width="189.75421" x="654.02045" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="748.8976" y="48.688526">
+99.29
 </text>
 </g>
 </g>

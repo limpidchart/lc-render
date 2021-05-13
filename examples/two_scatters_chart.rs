@@ -49,8 +49,8 @@ fn main() {
         .set_axis_bottom_label("X Values")
         .set_axis_left_label("Y Values")
         .set_title("Two Scatters Chart")
-        .add_scatter_view(view_1)
-        .add_scatter_view(view_2);
+        .add_view(&view_1)
+        .add_view(&view_2);
 
     chart
         .save("./examples/svg/two_scatters_chart.svg")

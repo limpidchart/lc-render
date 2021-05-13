@@ -1,7 +1,7 @@
 use crate::color::{COLOR_HEX_BLUE_1, COLOR_HEX_BLUE_2};
 use crate::render::svg::*;
 use crate::shape::point::Point;
-use crate::{BandScale, Color, Error, LinearScale, PointLabelPosition, PointType, Scale};
+use crate::{BandScale, Color, Error, LinearScale, PointLabelPosition, PointType, Scale, View};
 use svg::Node;
 
 const DEFAULT_LABEL_VISIBLE: bool = true;
@@ -136,9 +136,11 @@ impl LineView {
 
         Ok(self)
     }
+}
 
+impl View for LineView {
     /// Get line SVG representation.
-    pub fn to_svg(&self) -> svg::node::element::Group {
+    fn to_svg(&self) -> svg::node::element::Group {
         let mut res = svg::node::element::Group::new();
         let mut data = svg::node::element::path::Data::new();
 

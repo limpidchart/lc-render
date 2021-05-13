@@ -42,7 +42,7 @@ fn main() {
         .set_axis_bottom_label("X Values")
         .set_axis_left_label("Y Values")
         .set_title("Single Scatter Chart")
-        .add_scatter_view(view);
+        .add_view(&view);
 
     chart
         .save("./examples/svg/single_scatter_chart.svg")

@@ -1,7 +1,7 @@
 use crate::color::{COLOR_HEX_BLUE_3, COLOR_HEX_BLUE_4};
 use crate::render::svg::*;
 use crate::shape::point::Point;
-use crate::{Color, Error, LinearScale, PointLabelPosition, PointType, Scale};
+use crate::{Color, Error, LinearScale, PointLabelPosition, PointType, Scale, View};
 use svg::Node;
 
 const DEFAULT_LABEL_VISIBLE: bool = true;
@@ -122,9 +122,11 @@ impl ScatterView {
 
         Ok(self)
     }
+}
 
+impl View for ScatterView {
     /// Get scatter view SVG representation.
-    pub fn to_svg(&self) -> svg::node::element::Group {
+    fn to_svg(&self) -> svg::node::element::Group {
         let mut res = svg::node::element::Group::new();
         for point in self.points.iter() {
             res.append(point.to_svg());
