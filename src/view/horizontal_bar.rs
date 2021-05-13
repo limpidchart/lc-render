@@ -47,16 +47,18 @@ impl HorizontalBarView {
         }
 
         // Populate a map of category to tuples of (value, fill_color, stroke_color).
+        let y_scale_domain = self.y_scale.ticks();
         let mut bars_categories = HashMap::new();
         for bv_opts in bars_values.iter() {
             if bv_opts.values().len() > self.y_scale.ticks().len() {
                 return Err(Error::CategoriesCountIsLess);
             }
             for (i, value) in bv_opts.values().iter().enumerate() {
-                let category = self.y_scale.ticks()[i].clone();
-                bars_categories
-                    .entry(category)
-                    .or_insert_with(|| vec![(value, bv_opts.fill_color(), bv_opts.stroke_color())]);
+                let category = &y_scale_domain[i];
+                bars_categories.entry(category).or_insert_with(Vec::new);
+                if let Some(category_entries) = bars_categories.get_mut(&category) {
+                    category_entries.push((value, bv_opts.fill_color(), bv_opts.stroke_color()));
+                };
             }
         }
 
