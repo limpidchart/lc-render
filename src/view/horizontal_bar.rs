@@ -1,5 +1,7 @@
 use crate::shape::bar::Bar;
-use crate::{BandScale, BarLabelPosition, BarsValues, Error, LinearScale, Orientation, Scale};
+use crate::{
+    BandScale, BarLabelPosition, BarsValues, Error, LinearScale, Orientation, Scale, View,
+};
 use std::collections::HashMap;
 use svg::node::Node;
 
@@ -102,9 +104,11 @@ impl HorizontalBarView {
 
         Ok(self)
     }
+}
 
+impl View for HorizontalBarView {
     /// Get bar view SVG representation.
-    pub fn to_svg(&self) -> svg::node::element::Group {
+    fn to_svg(&self) -> svg::node::element::Group {
         let mut res = svg::node::element::Group::new();
 
         for bar in self.bars.iter() {

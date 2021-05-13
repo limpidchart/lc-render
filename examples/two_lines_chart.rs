@@ -62,8 +62,8 @@ fn main() {
         .set_axis_bottom_label("X Values")
         .set_axis_left_label("Y Values")
         .set_title("Two Lines Chart")
-        .add_line_view(view_1)
-        .add_line_view(view_2);
+        .add_view(&view_1)
+        .add_view(&view_2);
 
     chart
         .save("./examples/svg/two_lines_chart.svg")

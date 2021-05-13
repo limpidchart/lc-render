@@ -65,7 +65,7 @@ fn main() {
         .set_axis_bottom_band(x_scale)
         .set_axis_left_linear(y_scale)
         .set_title("Cost of living index")
-        .add_vertical_bar_view(view);
+        .add_view(&view);
 
     chart
         .save("./examples/svg/stacked_vertical_chart.svg")

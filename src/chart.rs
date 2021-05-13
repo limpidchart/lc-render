@@ -1,9 +1,7 @@
 use crate::render::svg::*;
 use crate::shape::axis::{Axis, AxisPosition};
-use crate::{
-    AreaView, BandScale, Error, HorizontalBarView, LineView, LinearScale, ScatterView,
-    VerticalBarView,
-};
+use crate::view::View;
+use crate::{BandScale, Error, LinearScale};
 use std::path::Path;
 use svg::Node;
 
@@ -19,7 +17,7 @@ const DEFAULT_TITLE_Y_TRANSFORM: i32 = 25;
 
 /// Chart represents a single document with one or more views, axes and a title.
 /// It will also contain grid and legend in the future.
-pub struct Chart {
+pub struct Chart<'a> {
     margin_top: i32,
     margin_bottom: i32,
     margin_left: i32,
@@ -30,15 +28,11 @@ pub struct Chart {
     x_axis_bottom: Option<Axis>,
     y_axis_left: Option<Axis>,
     y_axis_right: Option<Axis>,
-    area_views: Vec<AreaView>,
-    horizontal_bar_views: Vec<HorizontalBarView>,
-    line_views: Vec<LineView>,
-    scatter_views: Vec<ScatterView>,
-    vertical_bar_views: Vec<VerticalBarView>,
+    views: Vec<&'a dyn View>,
     title: String,
 }
 
-impl Chart {
+impl<'a> Chart<'a> {
     /// Create a new chart.
     pub fn new() -> Self {
         Chart {
@@ -52,11 +46,7 @@ impl Chart {
             x_axis_bottom: None,
             y_axis_left: None,
             y_axis_right: None,
-            area_views: Vec::new(),
-            horizontal_bar_views: Vec::new(),
-            line_views: Vec::new(),
-            scatter_views: Vec::new(),
-            vertical_bar_views: Vec::new(),
+            views: Vec::new(),
             title: String::new(),
         }
     }
@@ -233,33 +223,8 @@ impl Chart {
         self
     }
 
-    /// Add a single AreaView to chart.
-    pub fn add_area_view(mut self, view: AreaView) -> Self {
-        self.area_views.push(view);
-        self
-    }
-
-    /// Add a single HorizontalBarView to chart.
-    pub fn add_horizontal_bar_view(mut self, view: HorizontalBarView) -> Self {
-        self.horizontal_bar_views.push(view);
-        self
-    }
-
-    /// Add a single LineView to chart.
-    pub fn add_line_view(mut self, view: LineView) -> Self {
-        self.line_views.push(view);
-        self
-    }
-
-    /// Add a single ScatterView to chart.
-    pub fn add_scatter_view(mut self, view: ScatterView) -> Self {
-        self.scatter_views.push(view);
-        self
-    }
-
-    /// Add a single VerticalBarView to chart.
-    pub fn add_vertical_bar_view(mut self, view: VerticalBarView) -> Self {
-        self.vertical_bar_views.push(view);
+    pub fn add_view(mut self, view: &'a dyn View) -> Self {
+        self.views.push(view);
         self
     }
 
@@ -308,19 +273,7 @@ impl Chart {
                 TRANSFORM_ATTR,
                 translate_x_y(self.margin_left, self.margin_top),
             );
-        for view in self.area_views.iter() {
-            views_group.append(view.to_svg());
-        }
-        for view in self.horizontal_bar_views.iter() {
-            views_group.append(view.to_svg());
-        }
-        for view in self.line_views.iter() {
-            views_group.append(view.to_svg());
-        }
-        for view in self.scatter_views.iter() {
-            views_group.append(view.to_svg());
-        }
-        for view in self.vertical_bar_views.iter() {
+        for view in self.views.iter() {
             views_group.append(view.to_svg());
         }
         res.append(views_group);
@@ -362,7 +315,7 @@ impl Chart {
     }
 }
 
-impl Default for Chart {
+impl<'a> Default for Chart<'a> {
     fn default() -> Self {
         Self::new()
     }

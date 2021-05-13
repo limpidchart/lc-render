@@ -50,7 +50,7 @@ fn main() {
         .set_axis_bottom_label("X Values")
         .set_axis_left_label("Y Values")
         .set_title("Single Area Chart")
-        .add_area_view(view);
+        .add_view(&view);
 
     chart
         .save("./examples/svg/area_chart.svg")

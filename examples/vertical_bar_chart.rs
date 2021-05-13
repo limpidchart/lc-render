@@ -50,7 +50,7 @@ fn main() {
         .set_axis_bottom_label("Categories")
         .set_axis_left_label("Values")
         .set_title("Vertical Bar Chart")
-        .add_vertical_bar_view(view);
+        .add_view(&view);
 
     chart
         .save("./examples/svg/vertical_chart.svg")

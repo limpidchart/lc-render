@@ -50,7 +50,7 @@ fn main() {
         .set_axis_bottom_label("Categories")
         .set_axis_left_label("Values")
         .set_title("Horizontal Bar Chart")
-        .add_horizontal_bar_view(view);
+        .add_view(&view);
 
     chart
         .save("./examples/svg/horizontal_chart.svg")
