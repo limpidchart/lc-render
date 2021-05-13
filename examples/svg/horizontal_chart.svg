@@ -110,10 +110,22 @@ Values
 </g>
 <g class="views" transform="translate(60,90)">
 <g>
+<g class="bar" transform="translate(0,99.215675)">
+<rect fill="#898fd5" height="81.176476" shape-rendering="crispEdges" stroke="#2c2663" stroke-width="1" width="84" x="0" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="42" y="40.588238">
+12
+</text>
+</g>
 <g class="bar" transform="translate(0,9.019592)">
 <rect fill="#898fd5" height="81.176476" shape-rendering="crispEdges" stroke="#2c2663" stroke-width="1" width="644" x="0" y="0"/>
 <text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="322" y="40.588238">
 92
+</text>
+</g>
+<g class="bar" transform="translate(0,189.41176)">
+<rect fill="#898fd5" height="81.176476" shape-rendering="crispEdges" stroke="#2c2663" stroke-width="1" width="243.59999" x="0" y="0"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="121.799995" y="40.588238">
+34.8
 </text>
 </g>
 <g class="bar" transform="translate(0,279.60785)">
@@ -122,22 +134,10 @@ Values
 24
 </text>
 </g>
-<g class="bar" transform="translate(0,99.215675)">
-<rect fill="#898fd5" height="81.176476" shape-rendering="crispEdges" stroke="#2c2663" stroke-width="1" width="84" x="0" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="42" y="40.588238">
-12
-</text>
-</g>
 <g class="bar" transform="translate(0,369.80392)">
 <rect fill="#898fd5" height="81.176476" shape-rendering="crispEdges" stroke="#2c2663" stroke-width="1" width="66.5" x="0" y="0"/>
 <text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="33.25" y="40.588238">
 9.5
-</text>
-</g>
-<g class="bar" transform="translate(0,189.41176)">
-<rect fill="#898fd5" height="81.176476" shape-rendering="crispEdges" stroke="#2c2663" stroke-width="1" width="243.59999" x="0" y="0"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="121.799995" y="40.588238">
-34.8
 </text>
 </g>
 </g>
