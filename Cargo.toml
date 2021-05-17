@@ -15,3 +15,18 @@ keywords = ["graphics"]
 [dependencies]
 itertools = "0.10.0"
 svg = "0.9.1"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "ten_lines_chart"
+harness = false
+
+[[bench]]
+name = "ten_scatters_chart"
+harness = false
+
+[[bench]]
+name = "vertical_bar_chart"
+harness = false
