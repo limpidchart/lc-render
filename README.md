@@ -1,18 +1,21 @@
 # lc-render
 
+Library to create charts images
+
 ## Examples
 
-You can find examples in `examples` directory.  
+You can find examples in [examples](https://github.com/limpidchart/lc-render/tree/main/examples) directory.  
 Use `cargo run` to create charts from them:
 
 ```sh
-cargo run --example vertical_bar_chart
+cargo run --example stacked_vertical_bar_chart
 ```
 
-All examples create images in `svg` directory.  
-The command above creates the following chart:
+All examples create images in [examples/svg](https://github.com/limpidchart/lc-render/tree/main/examples/svg) directory.  
+You can see some of them here:
 
-![alt text](./examples/svg/vertical_chart.svg)
+![alt text](./examples/svg/line_and_vertical_bar_chart.svg)
+![alt text](./examples/svg/stacked_vertical_bar_chart.svg)
 
 ## Benchmarks
 
@@ -98,9 +101,13 @@ ten_scatters_chart/10000   time:   [123.34 ms 123.62 ms 123.91 ms]
 ten_scatters_chart/100000  time:   [1.3547 s 1.3564 s 1.3582 s]
 ten_scatters_chart/1000000 time:   [13.507 s 13.520 s 13.533 s]
 
-vertical_bar_chart/100     time:    224.81 us 225.58 us 226.75 us]
-vertical_bar_chart/1000    time:    2.1700 ms 2.1746 ms 2.1795 ms]
+vertical_bar_chart/100     time:   [224.81 us 225.58 us 226.75 us]
+vertical_bar_chart/1000    time:   [2.1700 ms 2.1746 ms 2.1795 ms]
 vertical_bar_chart/10000   time:   [24.008 ms 24.067 ms 24.129 ms]
 vertical_bar_chart/100000  time:   [337.56 ms 338.45 ms 339.36 ms]
 vertical_bar_chart/1000000 time:   [5.2513 s 5.2616 s 5.2718 s]
 ```
+
+# Thanks
+
+SVG drawing logic is based on [rustplotlib](https://github.com/askanium/rustplotlib). Big thanks to them!

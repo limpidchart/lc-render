@@ -110,10 +110,10 @@ Values
 </g>
 <g class="views" transform="translate(60,90)">
 <g>
-<g class="bar" transform="translate(288.2353,0)">
-<rect fill="#36896e" height="160.08002" shape-rendering="crispEdges" stroke="#0c513b" stroke-width="1" width="123.5294" x="0" y="299.91998"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="61.7647" y="379.96">
-34.8
+<g class="bar" transform="translate(13.725494,0)">
+<rect fill="#36896e" height="423.2" shape-rendering="crispEdges" stroke="#0c513b" stroke-width="1" width="123.5294" x="0" y="36.799988"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="61.7647" y="248.4">
+92
 </text>
 </g>
 <g class="bar" transform="translate(425.4902,0)">
@@ -122,10 +122,10 @@ Values
 24
 </text>
 </g>
-<g class="bar" transform="translate(13.725494,0)">
-<rect fill="#36896e" height="423.2" shape-rendering="crispEdges" stroke="#0c513b" stroke-width="1" width="123.5294" x="0" y="36.799988"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="61.7647" y="248.4">
-92
+<g class="bar" transform="translate(288.2353,0)">
+<rect fill="#36896e" height="160.08002" shape-rendering="crispEdges" stroke="#0c513b" stroke-width="1" width="123.5294" x="0" y="299.91998"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="61.7647" y="379.96">
+34.8
 </text>
 </g>
 <g class="bar" transform="translate(150.9804,0)">

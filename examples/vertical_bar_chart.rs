@@ -53,6 +53,6 @@ fn main() {
         .add_view(&view);
 
     chart
-        .save("./examples/svg/vertical_chart.svg")
-        .expect("unable to save ./svg/vertical_chart.svg");
+        .save("./examples/svg/vertical_bar_chart.svg")
+        .expect("unable to save ./svg/vertical_bar_chart.svg");
 }
