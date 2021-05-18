@@ -20,6 +20,34 @@ svg = "0.9.1"
 criterion = "0.3"
 
 [[bench]]
+name = "area_chart"
+harness = false
+
+[[bench]]
+name = "horizontal_bar_chart"
+harness = false
+
+[[bench]]
+name = "line_and_vertical_bar_chart"
+harness = false
+
+[[bench]]
+name = "line_chart"
+harness = false
+
+[[bench]]
+name = "scatter_chart"
+harness = false
+
+[[bench]]
+name = "stacked_horizontal_bar_chart"
+harness = false
+
+[[bench]]
+name = "stacked_vertical_bar_chart"
+harness = false
+
+[[bench]]
 name = "ten_lines_chart"
 harness = false
 
