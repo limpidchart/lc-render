@@ -1,5 +1,9 @@
 # lc-render
 
+[![crates.io](https://img.shields.io/crates/v/lc-render.svg)](https://crates.io/crates/lc-render)
+[![docs](https://docs.rs/lc-render/badge.svg)](https://docs.rs/lc-render)
+[![inspection](https://github.com/limpidchart/lc-render/actions/workflows/inspection.yml/badge.svg?branch=main)](https://github.com/limpidchart/lc-render/actions/workflows/inspection.yml)
+
 Library to create charts images
 
 ## Examples
