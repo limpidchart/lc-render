@@ -68,6 +68,6 @@ fn main() {
         .add_view(&view);
 
     chart
-        .save("./examples/svg/stacked_vertical_chart.svg")
-        .expect("unable to save ./examples/svg/stacked_vertical_chart.svg");
+        .save("./examples/svg/stacked_vertical_bar_chart.svg")
+        .expect("unable to save ./examples/svg/stacked_vertical_bar_chart.svg");
 }

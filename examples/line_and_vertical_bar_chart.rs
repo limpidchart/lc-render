@@ -63,6 +63,6 @@ fn main() {
         .add_view(&line_view);
 
     chart
-        .save("./examples/svg/line_and_vertical_chart.svg")
+        .save("./examples/svg/line_and_vertical_bar_chart.svg")
         .expect("unable to save ./svg/line_and_vertical_chart.svg");
 }
