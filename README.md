@@ -19,7 +19,7 @@ You can see some of them here:
 
 ## Benchmarks
 
-There are benchmarks for different chart views in `benches` directory that are implemented with `criterion` crate.
+There are benchmarks for different chart views in [benches](https://github.com/limpidchart/lc-render/tree/main/benches) directory that are implemented with `criterion` crate.
 
 ```shell
 benches
