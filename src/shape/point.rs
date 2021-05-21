@@ -19,7 +19,7 @@ const DEFAULT_FONT_SIZE: &str = "14px";
 const DEFAULT_POINT_VISIBLE: bool = true;
 
 /// PointType contains available types of points.
-#[derive(Copy, Clone, Debug)]
+#[derive(Copy, Clone, Debug, PartialEq, PartialOrd)]
 pub enum PointType {
     Circle,
     Square,
@@ -27,7 +27,7 @@ pub enum PointType {
 }
 
 /// PointLabelPosition contains available types of point label positions.
-#[derive(Copy, Clone, Debug)]
+#[derive(Copy, Clone, Debug, PartialEq, PartialOrd)]
 pub enum PointLabelPosition {
     Top,
     TopRight,
