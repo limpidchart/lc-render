@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.2] - 2021-05-21
+
+### Added
+
+- Added `derive PartialEq, PartialOrd` for `BarLabelPosition`, `PointLabelPosition`, `PointType`.
+
 ## [0.2.1] - 2021-05-21
 
 ### Added
