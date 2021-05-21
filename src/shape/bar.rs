@@ -11,7 +11,7 @@ const DEFAULT_LABEL_VISIBLE: bool = true;
 const DEFAULT_LABEL_POSITION: BarLabelPosition = BarLabelPosition::Center;
 
 /// BarLabelPosition represents available label positions of a bar shape.
-#[derive(Copy, Clone)]
+#[derive(Copy, Clone, Debug)]
 pub enum BarLabelPosition {
     StartOutside,
     StartInside,
