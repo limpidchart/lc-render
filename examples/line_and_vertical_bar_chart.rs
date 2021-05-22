@@ -59,8 +59,7 @@ fn main() {
         .set_axis_bottom_band(x_scale)
         .set_axis_left_linear(y_scale)
         .set_title("Cost of living index in Berlin")
-        .add_view(&vertical_bar_view)
-        .add_view(&line_view);
+        .set_views(vec![&vertical_bar_view, &line_view]);
 
     chart
         .save("./examples/svg/line_and_vertical_bar_chart.svg")
