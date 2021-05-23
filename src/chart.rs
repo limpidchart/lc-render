@@ -223,8 +223,15 @@ impl<'a> Chart<'a> {
         self
     }
 
+    /// Add a view to chart.
     pub fn add_view(mut self, view: &'a dyn View) -> Self {
         self.views.push(view);
+        self
+    }
+
+    /// Set chart views.
+    pub fn set_views(mut self, views: Vec<&'a dyn View>) -> Self {
+        self.views = views;
         self
     }
 

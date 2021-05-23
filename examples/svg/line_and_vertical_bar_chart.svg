@@ -104,34 +104,16 @@
 </g>
 <g class="views" transform="translate(60,90)">
 <g>
-<g class="bar" transform="translate(108.45068,0)">
-<rect fill="#77ab59" height="359.01645" shape-rendering="crispEdges" stroke="#36802d" stroke-width="1" width="88.73239" x="0" y="100.98355"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="44.366196" y="280.49176">
-66.34
-</text>
-</g>
 <g class="bar" transform="translate(207.04224,0)">
 <rect fill="#77ab59" height="347.32706" shape-rendering="crispEdges" stroke="#36802d" stroke-width="1" width="88.73239" x="0" y="112.67294"/>
 <text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="44.366196" y="286.3365">
 64.18
 </text>
 </g>
-<g class="bar" transform="translate(502.8169,0)">
-<rect fill="#77ab59" height="350.46588" shape-rendering="crispEdges" stroke="#36802d" stroke-width="1" width="88.73239" x="0" y="109.53412"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="44.366196" y="284.76706">
-64.76
-</text>
-</g>
-<g class="bar" transform="translate(404.22534,0)">
-<rect fill="#77ab59" height="371.3553" shape-rendering="crispEdges" stroke="#36802d" stroke-width="1" width="88.73239" x="0" y="88.644714"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="44.366196" y="274.32236">
-68.62
-</text>
-</g>
-<g class="bar" transform="translate(601.40845,0)">
-<rect fill="#77ab59" height="392.46115" shape-rendering="crispEdges" stroke="#36802d" stroke-width="1" width="88.73239" x="0" y="67.53885"/>
-<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="44.366196" y="263.7694">
-72.52
+<g class="bar" transform="translate(108.45068,0)">
+<rect fill="#77ab59" height="359.01645" shape-rendering="crispEdges" stroke="#36802d" stroke-width="1" width="88.73239" x="0" y="100.98355"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="44.366196" y="280.49176">
+66.34
 </text>
 </g>
 <g class="bar" transform="translate(9.859131,0)">
@@ -140,10 +122,28 @@
 74.72
 </text>
 </g>
+<g class="bar" transform="translate(601.40845,0)">
+<rect fill="#77ab59" height="392.46115" shape-rendering="crispEdges" stroke="#36802d" stroke-width="1" width="88.73239" x="0" y="67.53885"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="44.366196" y="263.7694">
+72.52
+</text>
+</g>
 <g class="bar" transform="translate(305.6338,0)">
 <rect fill="#77ab59" height="402.20236" shape-rendering="crispEdges" stroke="#36802d" stroke-width="1" width="88.73239" x="0" y="57.797638"/>
 <text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="44.366196" y="258.8988">
 74.32
+</text>
+</g>
+<g class="bar" transform="translate(404.22534,0)">
+<rect fill="#77ab59" height="371.3553" shape-rendering="crispEdges" stroke="#36802d" stroke-width="1" width="88.73239" x="0" y="88.644714"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="44.366196" y="274.32236">
+68.62
+</text>
+</g>
+<g class="bar" transform="translate(502.8169,0)">
+<rect fill="#77ab59" height="350.46588" shape-rendering="crispEdges" stroke="#36802d" stroke-width="1" width="88.73239" x="0" y="109.53412"/>
+<text dy=".35em" fill="#080808" font-family="sans-serif" font-size="14px" text-anchor="middle" x="44.366196" y="284.76706">
+64.76
 </text>
 </g>
 </g>
