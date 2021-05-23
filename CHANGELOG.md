@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.3] - 2021-05-23
+
+### Added
+
+- Added `set_views` method for `Chart` struct.
+
 ## [0.2.2] - 2021-05-21
 
 ### Added
