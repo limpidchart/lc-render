@@ -116,7 +116,7 @@ impl LineView {
         for (idx, value) in data.iter().enumerate() {
             let category = &categories[idx];
             let scaled_x = &self.x_scale.scale(category);
-            let scaled_y = self.y_scale.scale(&value);
+            let scaled_y = self.y_scale.scale(value);
 
             let point = Point::new(
                 scaled_x + x_bandwidth_offset,
