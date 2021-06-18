@@ -25,7 +25,6 @@ fn main() {
     );
 
     // Configure horizontal scale.
-    // LinearScale range is inverted because SVG coordinate system's origin is at left top corner.
     let x_scale = LinearScale::new(0.0, 100.0, 0, width - margin_left - margin_right);
 
     // Prepare vertical bars data.
